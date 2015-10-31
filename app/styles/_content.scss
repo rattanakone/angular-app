@@ -1,0 +1,32 @@
+#text-muted {
+        color: black;
+}
+
+#main {
+	h1 {
+	color: white;
+	}
+	.lead {
+        color: black;
+    }
+}
+
+#main {
+    @include border-top-radius(50px);
+    @include border-bottom-radius(50px);
+    background-image: linear-gradient(yellow, brown, tomato);
+}
+
+#new {
+	background-image: linear-gradient(brown, lightgreen);
+	h1 {
+	color: white;
+	}
+}
+
+#about {
+	background: blue;
+	h1 {
+	color: white;
+	}
+}
